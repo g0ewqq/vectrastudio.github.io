@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Vectra Studios</title>
+  <meta name="description" content="Vectra Studios is a small Minecraft development studio that runs servers, writes plugins for Paper and PocketMine-MP, and maintains what it ships." />
+  <meta name="author" content="Vectra Studios" />
+  <meta name="theme-color" content="#060a14" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="About — Vectra Studios" />
+  <meta property="og:description" content="A small Minecraft development studio focused on readable code, long-term support and open-source work." />
+  <meta property="og:image" content="assets/backgrounds/hero-bg.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .prose p { margin-bottom: 16px; line-height: 1.7; font-size: 1.02rem; }
+    .prose p:last-child { margin-bottom: 0; }
+    .feature-visual { position: relative; display: flex; align-items: center; justify-content: center; min-height: 260px; }
+    .feature-visual code.mono {
+      position: relative; z-index: 2; font-size: clamp(1.2rem, 2.4vw, 1.9rem);
+      font-weight: 600; color: var(--text); letter-spacing: -0.01em; text-align: center;
+      padding: 0 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-loader"><div class="loader-mark"></div></div>
+
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand" aria-label="Vectra Studios home">
+        <span class="brand-mark">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+            <path d="M4 5 L12 19 L20 5 L16 5 L12 12 L8 5 Z" fill="url(#bg1)"/>
+          </svg>
+        </span>
+        <span>Vectra<b>Studios</b></span>
+      </a>
+      <div class="nav-collapsible">
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="staff.html">Staff</a>
+          <a href="perks.html">Perks</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="btn btn-discord btn-sm" data-discord href="#" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.3 4.4A19.8 19.8 0 0 0 15.4 3l-.3.5c1.6.4 2.9 1 4.1 1.8a13.6 13.6 0 0 0-11.3 0c1.2-.8 2.6-1.4 4.1-1.8L11.7 3a19.8 19.8 0 0 0-4.9 1.4C3.5 8.9 2.7 13.3 3 17.6a19.9 19.9 0 0 0 6 3l.5-.8c-1-.4-2-.9-2.9-1.5l.7-.5a14.2 14.2 0 0 0 12 0l.7.5c-.9.6-1.9 1.1-2.9 1.5l.5.8a19.9 19.9 0 0 0 6-3c.4-5-.9-9.4-3.3-13.2ZM9.3 15c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Zm5.4 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Z"/></svg>
+            Discord
+          </a>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Page header ===== -->
+    <section class="page-header">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>About</span>
+        </nav>
+        <span class="eyebrow">About Vectra Studios</span>
+        <h1>Who we are</h1>
+        <p>A small Minecraft development studio founded in January 2026, currently building PVP practice cores and minigames for Java and Bedrock.</p>
+      </div>
+    </section>
+
+    <!-- ===== Intro ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">The studio</span>
+          <h2>A small team, one Discord</h2>
+        </div>
+        <div class="prose" data-reveal data-reveal-delay="0.08s" style="max-width:760px">
+          <p>Vectra Studios is a small team of developers. We founded the studio in January 2026 to build Minecraft PVP content full-time — practice cores, minigames and the plugins that hold them together.</p>
+          <p>Right now we're working on three projects: CPvPWars, a Paper plugin that combines CPvP and Bedwars into one minigame; VectraCore, an open-source Bedrock PVP practice core for PocketMine-MP; and AerisCore, a Java Edition PVP practice core. All three are in active development.</p>
+          <p>We work on both the Java and Bedrock sides. We keep the codebases small and readable because we're the ones who have to maintain them.</p>
+          <p>Most coordination happens in our Discord. If you want to commission work, follow the projects, or just talk about Minecraft PVP development, that's where to find us.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Feature rows ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="feature-row" data-reveal="left">
+          <div class="feature-text">
+            <span class="eyebrow">Scope</span>
+            <h2>What we build</h2>
+            <p>PVP practice cores and minigames, mostly. We develop for Paper on the Java side and PocketMine-MP on the Bedrock side, and release reusable work as open source where it makes sense.</p>
+            <ul class="feature-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Java plugins for Paper / Spigot</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>PocketMine-MP plugins for Bedrock</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>PVP practice and minigame systems</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Open-source releases under permissive licenses</span></li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="glow"></div>
+            <code class="mono">vectra-core</code>
+          </div>
+        </div>
+
+        <div class="feature-row" data-reveal="right">
+          <div class="feature-text">
+            <span class="eyebrow">Open source</span>
+            <h2>Built on open source</h2>
+            <p>Paper, PocketMine-MP, every library we depend on — the Minecraft server ecosystem runs on open source. We contribute back where we can, and release our own reusable work under permissive licenses.</p>
+            <ul class="feature-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>MIT-licensed utilities and libraries</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Public plugin frameworks with documented APIs</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Community contributions welcome and reviewed</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Internal tools released when they're stable enough</span></li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="glow"></div>
+            <code class="mono">MIT · public · maintained</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Values ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head center" data-reveal>
+          <span class="eyebrow">Values</span>
+          <h2>How we work</h2>
+          <p>Three things we keep coming back to when a decision isn't obvious.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card-glow" data-reveal data-reveal-delay="0s">
+            <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <h3>Readable code</h3>
+            <p>Plugins are read more than they're written. We keep codebases small, names clear and structure predictable so the next person to touch it — you, us, or a stranger on GitHub — can find their way around without an archaeology degree.</p>
+          </article>
+          <article class="card card-glow" data-reveal data-reveal-delay="0.08s">
+            <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3>Long-term support</h3>
+            <p>A server is a long-lived thing. We document what we ship and stick around for the follow-up bugs. When we build something, we keep it maintained rather than dropping it after release.</p>
+          </article>
+          <article class="card card-glow" data-reveal data-reveal-delay="0.16s">
+            <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3>Community first</h3>
+            <p>Most of our work happens in the open. Public repos, public issue trackers, public roadmap. Commission work stays private when needed, but everything reusable goes upstream so the next server owner doesn't have to write it again.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="section-sm">
+      <div class="container">
+        <div class="card card-glow" data-reveal="scale" style="text-align:center">
+          <h2 style="margin-bottom:10px">Want to work with us?</h2>
+          <p class="text-muted" style="max-width:560px;margin:0 auto 24px">Tell us what your server needs. Commission requests go through our contact form — general questions are welcome in Discord.</p>
+          <div class="flex gap-3 flex-wrap center">
+            <a class="btn btn-primary" href="services.html#contact">Commission request</a>
+            <a class="btn btn-discord" data-discord href="#" target="_blank" rel="noopener noreferrer">Join Discord</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5 L12 19 L20 5 L16 5 L12 12 L8 5 Z" fill="#3b82f6"/></svg></span>
+            <span>Vectra<b>Studios</b></span>
+          </a>
+          <p>Building Minecraft servers that last. Custom plugins, server setups, optimization and community projects.</p>
+          <div class="footer-social">
+            <a data-discord href="#" aria-label="Discord" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.3 4.4A19.8 19.8 0 0 0 15.4 3l-.3.5c1.6.4 2.9 1 4.1 1.8a13.6 13.6 0 0 0-11.3 0c1.2-.8 2.6-1.4 4.1-1.8L11.7 3a19.8 19.8 0 0 0-4.9 1.4C3.5 8.9 2.7 13.3 3 17.6a19.9 19.9 0 0 0 6 3l.5-.8c-1-.4-2-.9-2.9-1.5l.7-.5a14.2 14.2 0 0 0 12 0l.7.5c-.9.6-1.9 1.1-2.9 1.5l.5.8a19.9 19.9 0 0 0 6-3c.4-5-.9-9.4-3.3-13.2ZM9.3 15c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Zm5.4 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2Z"/></svg></a>
+            <a href="https://github.com/vectrastudios" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12 11.5 11.5 0 0 0 8.4 23c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2 0-.4-.5-1.6.2-3.2 0 0 1-.3 3.3 1.2a11 11 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.6.2 2.8.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 6 .4.3.8 1 .8 2.1v3.1c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Studio</h4>
+          <a href="about.html">About</a>
+          <a href="staff.html">Team</a>
+          <a href="projects.html">Projects</a>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="services.html">All Services</a>
+          <a href="services.html#pricing">Pricing</a>
+          <a href="services.html#plugins">Plugins</a>
+          <a href="services.html#setups">Setups</a>
+        </div>
+        <div class="footer-col">
+          <h4>Community</h4>
+          <a data-discord href="#">Discord</a>
+          <a href="https://github.com/vectrastudios">GitHub</a>
+          <a href="perks.html">Perks</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; <span data-year>2025</span> Vectra Studios. All rights reserved.</div>
+        <div class="links">
+          <a href="about.html">About</a>
+          <a data-discord href="#">Discord</a>
+          <a href="https://github.com/vectrastudios">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
